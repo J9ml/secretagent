@@ -1,0 +1,117 @@
+/* general styles */
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+}
+
+/* title */
+
+header {
+  display: inline-flex;
+  position: fixed;
+  background-color: black;
+  height: 1.82rem;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  position: fixed;
+  height: 1.5rem;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+}
+
+.title a {
+  display: inline-flex;
+  color: white;
+  align-items: center;
+  padding: 0.66rem 1rem;
+}
+
+.container {
+  width: 960px
+}
+
+/* hero image and heading */
+
+.hero {
+  background-image: url("../images/banner.jpeg");
+  background-position: center;
+  display: flex;
+  height: 25rem;
+  width: 100%;
+  z-index: 2;
+}
+
+.hero-content {
+background-color: black;
+color: white;
+font-weight: bold;
+display: flex;
+flex: 1 1;
+justify-content: flex-start;
+flex-flow: column wrap;
+width: 20rem;
+margin-top: 9rem;
+padding-left: 3rem;
+}
+
+.hero-content span {
+  height: 1rem;
+  text-align: left;
+  font-size: 1rem;
+  padding-top: 2rem;
+}
+
+.hero-content h1 {
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 0.25rem;
+
+}
+
+
+/* nav bar */
+
+.navigation {
+  background-color: firebrick;
+  width: 100%;
+}
+
+.nav-items {
+  height: 2rem;
+  width: 960px;
+  display: flex;
+  flex: row wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+
+}
+.nav-items a {
+  text-decoration: none;
+  color: white;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* featured products */
+
+
+/* location and hours */
+
+
+/* footer */
+
+
+/* responsive design */
